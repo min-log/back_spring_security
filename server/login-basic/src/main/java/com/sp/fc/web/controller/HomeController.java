@@ -28,14 +28,6 @@ public class HomeController {
         return "loginForm";
     }
 
-
-    @ResponseBody
-    @GetMapping("/auth")
-    public Authentication auth(){
-        return SecurityContextHolder.getContext().getAuthentication();
-    }
-
-
     @GetMapping("/access-denied")
     public String accessDenied(){
         return "AccessDenied";
@@ -52,4 +44,12 @@ public class HomeController {
     public String adminPage(){
         return "AdminPage";
     }
+
+
+    @ResponseBody
+    @GetMapping("/auth")
+    public Authentication auth(){
+        return SecurityContextHolder.getContext().getAuthentication();
+    }
+
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-basic/sp-fastcampus-spring-sec.server-login-basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-basic/sp-fastcampus-spring-sec.server-login-basic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-custom-filter/sp-fastcampus-spring-sec.server-login-custom-filter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-custom-filter/sp-fastcampus-spring-sec.server-login-custom-filter.main.iml" />
     </modules>
   </component>
 </project>
